@@ -1,5 +1,5 @@
-hash: 5e7b2c4c8bdcc6405d63c91ea3221f1e7b86f124818330a82865e9ecc8c90fb5
-updated: 2017-09-04T09:59:08.183515819+02:00
+hash: 93d9eba9da07ecb1e8de03b355a36f05d853193e3107852c68713fd7aac5fd3c
+updated: 2017-09-04T10:16:05.262507613+02:00
 imports:
 - name: github.com/dgrijalva/jwt-go
   version: 24c63f56522a87ec5339cc3567883f1039378fdb
@@ -45,6 +45,10 @@ imports:
   version: 1fbbd62cfec66bd39d91e97749579579d4d3037e
   subpackages:
   - ssh/terminal
+- name: golang.org/x/sys
+  version: c200b10b5d5e122be351b67af224adc6128af5bf
+  subpackages:
+  - unix
 testImports:
 - name: github.com/davecgh/go-spew
   version: 6d212800a42e8ab5c146b8ace3490ee17e5225f9
