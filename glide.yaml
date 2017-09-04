@@ -1,6 +1,4 @@
 package: github.com/Tecsisa/foulkon
-ignore:
-- golang.org/x/sys/unix
 import:
 - package: github.com/sirupsen/logrus
   version: 1.0.3
