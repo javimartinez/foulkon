@@ -10,7 +10,6 @@ import (
 
 	"time"
 
-	logrusTest "github.com/Sirupsen/logrus/hooks/test"
 	"github.com/Tecsisa/foulkon/api"
 	"github.com/Tecsisa/foulkon/foulkon"
 	"github.com/Tecsisa/foulkon/middleware"
@@ -18,6 +17,7 @@ import (
 	"github.com/Tecsisa/foulkon/middleware/logger"
 	"github.com/Tecsisa/foulkon/middleware/xrequestid"
 	"github.com/julienschmidt/httprouter"
+	logrusTest "github.com/sirupsen/logrus/hooks/test"
 )
 
 const (
